@@ -1,0 +1,156 @@
+body {
+    font-family:Kalam;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #575757;
+    color: #c5c5c5;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    color: #c5c5c5;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('./image/hq720.jpg'); /* Replace with your background image */
+    background-size: cover;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    color:#c5c5c5;
+    font-family: Kalam;
+    
+}
+
+    h1{
+        font-size: 5em
+    }
+    h2{
+        font-size: 3em;
+    }
+.info {
+    text-align: center;
+    padding: 20px;
+}
+p {
+    text-align: left;
+}
+
+.weeks {
+    padding: 20px;
+}
+
+.week {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: none; /* Initially hide content */
+}
+
+.content.visible {
+    display: block; /* Show content when toggled */
+}
+
+footer {
+    text-align: center;
+    background-color:#575757;
+    color: #c5c5c5;
+    padding: 10px 0;
+}
+.container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    margin: 20px; /* Optional: Add some margin around the container */
+}
+
+.left-image {
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.text-content {
+    flex: 1; /* Allow text content to take remaining space */
+}
+
+.text-content p {
+    margin: 10px 0; /* Default spacing for paragraphs */
+}
+
+.spaced {
+    margin-top: 30px; /* Different spacing for this paragraph */
+}
+
+.link-container {
+    margin: 20px; /* Optional: Add some margin around the container */
+}
+
+.document-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: #007BFF; /* Default link color */
+    font-size: 18px; /* Set font size */
+}
+
+.document-link:hover {
+    color: #0056b3; /* Change color on hover */
+    transition: color 0.3s ease; /* Smooth transition for the color change */
+}
+
+#contact{
+   text-align: center;
+}
+.profile-link{
+    padding: 15px;
+    font-size: 2em;
+    color:goldenrod;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted #333;
+    color: #fff;
+    border-color: rgb(212, 231, 245) ;
+    height: 2px;
+    
+    height: 2px;
+    border-width:5px;
+    border-spacing: 20px;
+    width: 7%;
+}
+
+@media only screen and (max-width: 600px){
+    p, h1, h2{
+        font-size: 20px;
+    }
+    .social-icons{
+        font-size: 1em;
+    }
+    .project-image{
+        width: 100px;
+        height : 150px;
+    }
+}

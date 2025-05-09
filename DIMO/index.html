@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Progress Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+</head>
+<body>
+    <header>
+        <img src="./image/unnamed.jpg" alt="Logo" class="logo"> <!-- Replace with your logo image -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>IETP Portfolio</h1>
+        </section>
+
+        <section id="about" class="info">
+            <h2>Hello, ...</h2>
+            <div class="container">
+                <img src="./image/ele.png" alt="Description of image" class="left-image">
+                <div class="text-content">
+                  
+                    <p class="spaced"><b>Name:</b> Dimtse Begidu</p>
+            <p class="spaced"><b>ID:</b>ETS0491/14</p>
+            <p class="spaced"><b>Email:</b> begidudimtse@gmail.com</p>
+            <p class="spaced"><b>Department:</b> Electrical and Computer Engineering</p>
+            <p>Hello! My name is Dimtse Begidu, and I am currently in my fourth year of pursuing a Bachelor's degree in Electrical Engineering. I am eager to contribute my skills and collaborate with like-minded individuals in the engineering field. I believe that continuous learning and hands-on experience are essential for personal and professional growth. 
+            </p>       
+                </div>
+            </div>
+        </section>
+            <hr>
+    <section id="progress" class="weeks">
+            <h2>Weekly Progress</h2>
+            <div class="week" onclick="toggleContent('week1Content')">
+                <h3>First Day</h3>
+                <div id="week1Content" class="content hidden" >
+                    <div class="container">
+                        <img src="./image/businesspeople-meeting-around-table-modern-260nw-547750492.webp" alt="Description of image" class="left-image">
+                        <div class="text-content">
+                            <p> project's first week was an introduction to the course. Then we took part in the orientation program. The program's main goal is to inform and guide us through the course. They told us many useful things during the orientation, such as the time schedule, the fact that our problem had to map at least one of the SDGs, the grading system, and so on. Following that, my teammate and I met for the first time, as well as our advisor. We try to discuss the course and its various rules.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            <div class="week" onclick="toggleContent('week2Content')">
+                <h3>Week two</h3>
+                <div id="week2Content" class="content hidden" >
+                    <div class="container">
+                        <img src="./image/images.jpg" alt="Description of image" class="left-image">
+                        <div class="text-content">
+                            <p> Conducted a brainstorming session to generate project ideas based on interests and expertise. Researched potential project ideas to assess their feasibility, relevance, and alignment with course objectives.
+                         </p>
+                            <p>My idea was <div class="link-container">
+                                <a href="https://docs.google.com/document/d/1nTPLa2GlxJF5dRxkR9oai9ZwrdVYzmhKjNdCLalOZVY/edit?usp=sharing" class="document-link" target="_blank">Open Document</a>
+                            </div> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="week" onclick="toggleContent('week3Content')">
+                <h3>Week three</h3>
+                <div id="week3Content" class="content hidden" >
+                    <div class="container">
+                        <img src="./image/download.png" alt="Description of image" class="left-image">
+                        <div class="text-content">
+                            <p>In week three, my teammates and I decided on the best idea from among those proposed by each team member. We decided to work on Design and implementation of smart speed breaker after much discussion and meeting. We discussed it with our advisor, and it was agreed upon by all.
+                         </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="week" onclick="toggleContent('week4Content')">
+                <h3>Week Four</h3>
+                <div id="week4Content" class="content hidden" >
+                    <div class="container">
+                        <img src="./image/proposal.jpg" alt="Description of image" class="left-image">
+                        <div class="text-content">
+                            <ul class="custom-dots">
+                                <li>Collaboratively worked on drafting the project proposal, dividing sections among team members (e.g., introduction, methodology, timeline) </li>
+                                <li>Assigned specific roles and responsibilities to each department based on their strengths and interests.
+                             </li>
+                                <li>Finalized the proposal by incorporating feedback and
+                                    preparing for submission.
+                             </li>
+                                
+                            </ul>
+                            <div class="link-container"> My part was 
+                                <a href="https://docs.google.com/document/d/19WX3MNt4Y13Preo4nd_sqbikJb8HCNk5Ivk_QQSUFTw/edit?usp=sharing " class="document-link" target="_blank">Open Document</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Let's contact...</h2>
+            
+            <div class="social-icons">
+                
+                <a class="profile-link" href="https://x.com/DBegidu?t=zD8sh-3F5cp_dqe22vjImg&s=09">
+                  <i class="fab fa-twitter"></i></a>
+       
+                <a class="profile-link" href="www.linkedin.com/in/dimtse-begidu-02aab1206">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                
+              
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dimtse Begidu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
