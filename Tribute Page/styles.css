@@ -1,0 +1,35 @@
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 0 50 0 50;
+  
+}
+main{
+  background-color: #BC8F8F;
+  padding: 65px 65px 65px 65px; 
+  margin-left: 60px;
+  margin-left: 60px; 
+  font-size: 16;
+}
+#img-div{
+  padding: 80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c3bbbb;
+
+}
+h1, h2, p{
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+}
+nav>ul>li{
+  margin-left: 120;
+  margin-right:120;
+}
+#pa{
+  font-size: 18;
+}
