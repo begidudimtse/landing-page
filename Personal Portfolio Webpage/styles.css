@@ -1,0 +1,159 @@
+:root{
+    --color1: #3E362E;
+    --color2: #865d36;
+    --color3: #937858;
+    --color4: #AC8968;
+    --color5: #A69080;
+
+
+}
+*{
+    box-sizing: inherit;
+    margin:0;
+}
+.bar{
+    width: 100%;
+    height: 70px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color2);
+   
+}
+li{
+    display: inline;
+}
+#navbar{
+    position: fixed;
+    right: 30px;
+    top: 0px;
+    
+}
+.nav-link{
+    color: #e6e6e6;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;}
+
+#welcome-section{
+    width: 100%;
+    height: 540px;
+    margin-top: 70px;
+    background-color: var(--color1);
+    color: #e6e6e6;
+    font-family: Kalam;
+    text-align: center;
+}
+h1, p{
+    position: relative;
+    top: 120px;}
+    h1{
+        font-size: 4em
+    }
+.welcome-section p{
+        font-size: 2em;
+        color: var(--color2);
+}
+#projects{
+    background-color: var(--color5);
+    font-family: kalam;
+    font-size: 1.5em;
+    color: var(--color1);
+    text-decoration: var(--color2) underline;
+   
+ text-align: center;
+  }
+ .project-tile {
+         font-family: kalam;
+         font-size: 1em;
+         color: #e6e6e6;
+         position: relative;
+    top: 15px;
+    text-decoration: none;
+  }
+  
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 100rem;
+    
+
+  
+}
+
+a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.project-image {
+    height: calc(100% - 5.8rem);
+    width: 40%;
+    object-fit: cover;
+    padding: 10px;
+   
+}
+
+#contact{
+      width: 100%;
+    height: 350px;
+    margin-top: 70px;
+    background-color: var(--color1);
+    color: #e6e6e6;
+    font-family: Kalam;
+    text-align: center;
+    margin: 0;
+    padding-top: 120px;
+    
+}
+#contact h2{
+    font-size: 3em;
+    font-weight: bold;
+
+}
+#contact p{
+    font-size: 1.4em;
+
+}
+
+.profile-link{
+    padding: 15px;
+    font-size: 2em;
+}
+
+hr{
+    border: 5px solid var(--color2);
+}
+#foot{
+    width: 100%;
+    height: 100px;
+    background-color: var(--color3);
+    margin-bottom: 0px;
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 20px;
+}
+#foot p{
+    position: relative;
+    top: 30px;
+    display: inline;
+    padding: 10px
+}
+
+@media only screen and (max-width: 600px){
+    p, h1, h2{
+        font-size: 20px;
+    }
+    .social-icons{
+        font-size: 1em;
+    }
+    .project-image{
+        width: 100px;
+        height : 150px;
+    }
+}
